@@ -15,7 +15,7 @@ The chatbot is implemented using advanced retrieval techniques, making it a robu
 
 ## Comparison with GPT Series
 
-- **Model Size**: Llama 3.1 surpasses GPT-3.5 in scale with its 405B parameter model, providing deeper computational capabilities.
+- **Model Size**: Llama 3.1 surpasses GPT series in scale with its 405B parameter model, providing deeper computational capabilities.
 - **Context Length**: Handles up to 128K tokens, significantly more than GPT-3.5 and GPT-4, making it suitable for tasks requiring long-term contextual understanding.
 - **Open-Source Advantage**: Unlike proprietary GPT models, Llama 3.1 is open-source, allowing for extensive customization and deployment across various platforms.
 
@@ -34,7 +34,7 @@ The model setup includes generating embeddings and configuring the `ChatOllama` 
 The `RetrievalQA` chain is configured using the Llama 3.1 8B model and a Chroma vector store containing the data. A specific prompt from the hub is used for this purpose.
 
 ### 4. Query Processing
-When a user asks a question, the `RetrievalQA` chain processes it to return the relevant information. If no suitable answer is found, the chatbot responds with "I don't know."
+When a user asks a question, the `RetrievalQA` chain processes it to return the relevant information. If no suitable answer is found, the chatbot responds with "I don't know" to avoid hallucinations.
 
 ### 5. Gradio Interface
 The project includes a Gradio-based user interface that allows users to interact with the chatbot, ask questions, and receive answers. The interface is styled with a description and an image related to Mars exploration.
