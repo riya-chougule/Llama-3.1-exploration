@@ -8,7 +8,7 @@ The chatbot is implemented using advanced retrieval techniques, making it a robu
 ## Key Features
 
 - **Powered by Llama 3.1**: Utilizes the 8B parameter version of Llama 3.1, one of the latest open-source large language models.
-- **Ollama Integration**: Seamlessly integrates with the Ollama framework, enhancing the deployment and interaction capabilities of the Llama 3.1 model.
+- **Ollama Integration**: Seamlessly integrates with the Ollama framework, enhancing the deployment and interaction capabilities of the quantized version of Llama 3.1 model.
 - **Contextual Understanding**: Capable of handling extensive context, making it ideal for detailed discussions about Mars exploration.
 - **Multilingual Support**: The model supports eight languages, expanding its usability for a global audience.
 - **Interactive Gradio Interface**: The project includes a user-friendly interface built with Gradio, allowing seamless interaction with the chatbot.
