@@ -39,6 +39,6 @@ When a user asks a question, the `RetrievalQA` chain processes it to return the 
 ### 5. Gradio Interface
 The project includes a Gradio-based user interface that allows users to interact with the chatbot, ask questions, and receive answers. The interface is styled with a description and an image related to Mars exploration.
 
-<img width="1289" alt="Screenshot 2024-08-11 at 4.34.42 PM.png" src="https://github.com/riya-chougule/Llama-3.1-exploration/issues/1#issue-2463610028">
+<img width="1409" alt="Screenshot 2024-08-11 at 4 34 42 PM" src="https://github.com/user-attachments/assets/a4b356d1-506f-43a1-b315-2d1101ef99a3">
 
 
